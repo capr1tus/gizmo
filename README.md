@@ -1,2 +1,3 @@
-# quicksilver
-the quick and dirty way to play your games
+<div style="text-align: center">
+  <p>quicksilver</p>
+</div>

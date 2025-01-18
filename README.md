@@ -6,22 +6,13 @@
 
 
 ## About
-Gizmo is a lightweight console emulation site, able to be hosted on any static hosting site. **currently in development.**
+Gizmo is a lightweight console emulation site, able to be hosted on any static hosting site. Gizmo will have **at least** three systems being emulated in one way or another, with a sleek UI featuring [Rose Pine Colors](https://rosepinetheme.com/palette/) to make playing feel smooth and clean.
 
 ## Goals
-```
-finish gba
-```
-```
-n64 or pico8
-```
-```
-more systems
-```
-```
-colors
-```
-```
-bugfixes
-```
+- [ ] Finish GBA
+- [ ] Pico-8
+- [ ] N64(?)
+- [ ] Gameboy / GBC (?)
+- [ ] Colors sitewide
+- [ ] Offline Functonality(?)
 </div>

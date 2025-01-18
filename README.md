@@ -1,3 +1,3 @@
 <div align="center">
-  <h1>strongroom</h1>
+  <h1>gizmo</h1>
 </div>

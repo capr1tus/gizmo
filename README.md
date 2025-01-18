@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/capr1tus/gizmo/blob/main/data/logo.png">
   <h1>gizmo</h1>
-  <i>lightweight emulation platform with customizability and forking in mind</i>
+  <i>lightweight emulation platform with customizability and forking in mind, powered by webetro</i>
 </br>
 
 

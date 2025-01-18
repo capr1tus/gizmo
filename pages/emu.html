@@ -2,113 +2,37 @@
 	<head>
 		<meta charset="utf-8">
 	
-		<title>Gizmo</title>
+		<title>gizmo</title>
 
 		<link rel="icon" type="/image/x-icon" href="../data/logo.png">
+		<link rel="stylesheet" href="../data/style.css">
 	</head>
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap');
-
-		body {
-			background-color: #232136;
-			font-family: 'Cousine', monospace;
-		}
-		p {
-			color: #e0def4;
-			font-family: 'Cousine', monospace;
-			font-size: 18px;
-		}
-		b {
-			color: #e0def4;
-			font-family: 'Cousine', monospace;
-			font-weight: bold;
-			font-size: 18px;
-		}
-		h1 {
-			color: #e0def4;
-			font-family: 'Cousine', monospace;
-			font-size: 42px;
-		}
-		.comment {
-			color: #908caa;
-			font-family: 'Cousine', monospace;
-			font-size: 12px;
-		}
-		a {
-			color: #9ccfd8;
-			font-family: 'Cousine', monospace;
-			font-size: 18px;
-		}
-		i {
-			color: #e0def4;
-			font-family: 'Cousine', monospace;
-			font-size: 18px;
-		}
-		h2 {
-			color: #e0def4;
-			font-family: 'Cousine', monospace;
-			font-size: 30px;
-		}
-
-		.container {
-    		max-width: 1200px;
-    		margin: 0 auto;
-    		padding: 0 20px;
-    		overflow: hidden;
-		}
-		#logo {
-    		float: left;
-    		font-size: 1.5em;
-		}
-
-		nav {
-    		float: right;
-		}
-
-		.nav-links {
-    		list-style-type: none;
-    		margin: 0;
-    		padding: 0;
-		}
-	
-		.nav-links li {
-    		display: inline-block;
-    		margin-left: 20px;
-		}
-
-		.nav-links li a {
-    		color: #fff;
-    		text-decoration: none;
-    		padding: 10px 15px;
-    		display: inline-block;
-    		transition: background-color 0.3s;
-		}
-
-		.nav-links li a:hover {
-    		background-color: #555;
-		}
-
-		.content {
-    		padding: 50px 0;
-    		text-align: center;
-		}
-	</style>
 	<body>
 		<header>
 			<div class="container">
-            <div id="logo"><a href="../index.html"><img src="../data/logo.png"></a></div>
+            <div id="logo"><a href="./index.html"><img src="../data/logo.png"></a></div>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="../pages/emu.html">Emulators</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./pages/emu.html">Emulators</a></li>
                     <li><a href="#">Repo</a></li>
-                    <li><a href="#">Docs</a></li>
+                  <!--  <li><a href="#">Docs</a></li>-->
                 </ul>
             </nav>
         </div>
 		</header>
 		<div class="content">
 			<h1>gizmo</h1>
+		</br>
+		
+		<ul class="nav-links">
+                    <li><a href="../emulation/main/index.html?core=mgba">Gameboy Family</a></li>
+                    <p></p>
+                    <li><a href="../emulation/main/index.html?core=parallel_n64">Nintendo 64</a></li>
+                     <p></p>
+                    <li><a href="../emulation/main/index.html?core=melonds">Nintendo DS</a></li>
+                    
+                </ul>
 		</div>
 	</body>
 </html>

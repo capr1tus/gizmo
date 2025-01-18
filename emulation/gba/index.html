@@ -259,7 +259,7 @@ document.addEventListener('webkitfullscreenchange', function() {
 <body>
 <canvas id="screen" width="480" height="320"></canvas>
 <section id="gameinfo">
-	<p>The Game Boy Advance's buttons are mapped as follows:</p>
+	<p>Keybinds:</p>
 	<table id="mapping">
 		<tr>
 			<td>A</td>
@@ -286,13 +286,16 @@ document.addEventListener('webkitfullscreenchange', function() {
 			<td>\</td>
 		</tr>
 	</table>
+	<a href="../index.html">Go Home</a>
 </section>
 <section id="controls">
 	<div id="preload">
+
 		<button class="bigbutton" id="select" onclick="document.getElementById('loader').click()">SELECT</button>
 		<input id="loader" type="file" accept=".gba" onchange="run(this.files[0]);">
 		<button onclick="document.getElementById('saveloader').click()">Upload Savegame</button>
 		<input id="saveloader" type="file" onchange="uploadSavedataPending(this.files[0]);">
+
 	</div>
 	<div id="ingame" class="hidden">
 		<button id="pause" class="bigbutton" onclick="togglePause()">PAUSE</button>
@@ -305,18 +308,16 @@ document.addEventListener('webkitfullscreenchange', function() {
 			<input type="checkbox" checked onchange="gba.audio.masterEnable = this.checked">
 			<input type="range" min="0" max="1" value="1" step="any" onchange="setVolume(this.value)" oninput="setVolume(this.value)">
 		</div>
+		
 	</div>
 </section>
 <section id="instructions">
+
 	<p>
-		For legal reasons, GBA.js is presented without any included games. Please click Select
-		below to choose a Game Boy Advance game image from your hard drive that you'd like to play.
-		The games must be uncompressed, so unzip them as needed.
+		
 	</p>
 	<p>
-		Please note that this is a beta and there might be compatibility problems. More
-		information and a link to a compatibility table can be found on the sidebar. If you're
-		feeling daring, please submit problem reports to the GitHub page.
+		
 	</p>
 </section>
 <aside id="moreinfo">
@@ -363,5 +364,6 @@ document.addEventListener('webkitfullscreenchange', function() {
 	</dl>
 	<footer></footer>
 </aside>
+
 </body>
 </html>

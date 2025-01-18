@@ -61,6 +61,24 @@ a:link, a:visited {
 
 #controls button, #mapping td, #sound, #controls label {
 	background: transparent;
+	border: 0px solid #2a273f;
+	border-top: 2px solid #2a273f;
+	border-bottom: 2px solid #2a273f;
+	border-radius: 30px;
+	color: white;
+	font-weight: bold;
+	display: block;
+	padding: 6px 15px;
+	margin-right: 330px;
+	margin-left: auto;
+	margin-top: 20px;
+	font-size: 20px;
+	text-shadow: 0 2px #2a273f, 0 -1px #2a273f;
+}
+
+/**
+ * #controls button, #mapping td, #sound, #controls label {
+	background: transparent;
 	border: 0px solid rgba(192, 128, 192, 0.5);
 	border-top: 2px solid rgba(96, 48, 96, 0.8);
 	border-bottom: 2px solid rgba(255, 200, 255, 0.5);
@@ -75,6 +93,8 @@ a:link, a:visited {
 	font-size: 20px;
 	text-shadow: 0 2px rgba(96, 48, 96, 0.8), 0 -1px rgba(255, 200, 255, 0.5);
 }
+ * 
+ * **/
 
 #controls .bigbutton, #mapping td {
 	font-size: 30px;
@@ -283,13 +303,13 @@ ul#links li:not(:first-child)::before {
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
 	padding-right: 10px;
-	border-right: 1px solid rgba(96, 48, 96, 0.8);
+	border-right: 1px solid #2a273f;
 }
 
 #mapping td:last-child {
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
-	border-left: 1px solid rgba(96, 48, 96, 0.8);
+	border-left: 1px solid #2a273f;
 }
 
 #sound, #controls label {

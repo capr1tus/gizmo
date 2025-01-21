@@ -1,85 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap');
+/* this css is for the main page, not for the webretro UI*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap'); /* load in our font */
 
 		body {
-			background-color: #232136;
-			font-family: 'Cousine', monospace;
+			background-color: #232136; /* set the bg color */
+			font-family: 'Cousine', monospace; /* set the font sitewide*/
 		}
-		p {
+
+		hr { /* line break */
+			color: #393552; 
+		}
+
+		p { /* default text */
 			color: #e0def4;
 			font-family: 'Cousine', monospace;
 			font-size: 18px;
 		}
-		b {
+		b { /* bold text */
 			color: #e0def4;
 			font-family: 'Cousine', monospace;
 			font-weight: bold;
 			font-size: 18px;
 		}
-		h1 {
+		h1 { /* headers */
 			color: #e0def4;
 			font-family: 'Cousine', monospace;
 			font-size: 42px;
 		}
-		.comment {
+		.comment { /* text id that makes the text tiny and grey*/
 			color: #908caa;
 			font-family: 'Cousine', monospace;
 			font-size: 12px;
 		}
-		a {
+		a { /* links */
 			color: #9ccfd8;
 			font-family: 'Cousine', monospace;
 			font-size: 18px;
 		}
-		i {
+		i { /* italic text */
 			color: #e0def4;
 			font-family: 'Cousine', monospace;
 			font-size: 18px;
 		}
-		h2 {
+		h2 { /* subheaders */
 			color: #e0def4;
 			font-family: 'Cousine', monospace;
 			font-size: 30px;
 		}
 
-		.container {
+		.container { /* a container :)*/
     		max-width: 1200px;
     		margin: 0 auto;
     		padding: 0 20px;
     		overflow: hidden;
 		}
-		#logo {
+		#logo { /* for the gizmo wrench */
     		float: left;
     		font-size: 1.5em;
 		}
 
-		nav {
+		nav { /* the top navbar */
     		float: right;
 		}
 
-		.nav-links {
+		.nav-links { /* links for the navbar */
     		list-style-type: none;
     		margin: 0;
     		padding: 0;
 		}
 	
-		.nav-links li {
+		.nav-links li { /* for the navlinks */
     		display: inline-block;
     		margin-left: 20px;
 		}
 
-		.nav-links li a {
-    		color: #fff;
-    		text-decoration: none;
+		.nav-links li a { /* for the navlinks */
+    		color: #e0def4;
+    		text-decoration: none; /* not fancy */
     		padding: 10px 15px;
     		display: inline-block;
     		transition: background-color 0.3s;
 		}
 
-		.nav-links li a:hover {
-    		background-color: #555;
+		.nav-links li a:hover { /* on hover, change bg to a nice color */
+    		background-color: #393552;
 		}
 
-		.content {
+		.content { /* main page */
     		padding: 50px 0;
     		text-align: center;
+		}
+
+		.main-links li { /* links that are styled like nav links, but on the main page*/
+    		display: inline-block;
+    		margin-left: 0px;
+		}
+		
+		.main-links { /* see above */
+			list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+		}
+ 
+		.main-links li a { /* more main link customization */
+			color:#e0def4;	
+			background-color: #2a273f;
+			text-decoration: none;
+    		padding: 10px 15px;
+    		display: inline-block;
+    		transition: background-color 0.3s;
+		}
+
+		.main-links li a:hover { /* on hover change to color*/
+			background-color: #393552;
 		}

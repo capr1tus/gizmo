@@ -20,14 +20,19 @@
 
 
 ## About
-Gizmo is a lightweight console emulation site, able to be hosted on any static hosting site. Gizmo will have **at least** three systems being emulated in one way or another, with a sleek UI featuring [Rose Pine Colors](https://rosepinetheme.com/palette/) to make playing feel smooth and clean.
+Gizmo is a lightweight, retro emulation site, able to be hosted on any static hosting platform. Gizmo is easy to set up and start playing, with a sleek UI featuring [Rose Pine Colors](https://rosepinetheme.com/palette/). Gizmo does not contain any bloatware of any kind, and you can run it completely offline, assuming you have your roms already downloaded.
+
+## Deployment
+Gizmo can be deployed anywhere that you can deploy static sites. This includes: Github Pages, Glitch, and possibly NeoCities. you can also deploy it locally using a github codespace. Gizmo is lightweight, so it doesn't take up a lot of space on your disk. the size can be checked at the top of this README.
 
 ## Goals
+- [ ] Improve on the README
+- [ ] Setup npm deployment
 - [ ] Finish tweaks
 - [X] Finish GBA
 - [ ] Pico-8
 - [X] N64(?)
 - [X] Gameboy / GBC (?)
 - [ ] Colors sitewide
-- [ ] Offline Functonality(?)
+- [X] Offline Functonality(?)
 </div>

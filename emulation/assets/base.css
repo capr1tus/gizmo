@@ -15,7 +15,7 @@ body {
 	--menupaddingx: 16px;
 	--subpadding: 4px 12px;
 	--rounding: 0px;
-	--barcolor: #e0def4; /*dfdfdf*/
+	--barcolor: #e0def4; /*dfdfdf*/ 
 	--subcolor: #e0def4; /*d8d8d8*/
 	--barfontcolor: #000000;
 	--subfontcolor: #000000;
@@ -415,9 +415,9 @@ body.coreselect #ffd {
 	margin-bottom: 3px;
 }
 
-#ffd ul li a {
+#ffd ul li a { /*THIS IS FOR TEXT*/
 	text-decoration: none;
-	color: black;
+	color: #e0def4;
 }
 
 input[type="file"] {
@@ -506,7 +506,7 @@ input[type="file"] {
 
 #ffd .source * {
 	text-decoration: none;
-	color: black;
+	color: #908caa;
 	font-size: 10px;
 	margin: 0px 5px;
 	vertical-align: top;

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/capr1tus/gizmo/blob/main/data/logo.png">
+  <img src="./data/logo.png">
   <h1>gizmo</h1>
 
   <i>lightweight emulation platform with customizability and forking in mind, powered by webretro</i>
@@ -19,13 +19,20 @@
 </br>
 
 
-## About
+## about
 Gizmo is a lightweight, retro emulation site, able to be hosted on any static hosting platform. Gizmo is easy to set up and start playing, with a sleek UI featuring [Rose Pine Colors](https://rosepinetheme.com/palette/). Gizmo does not contain any bloatware of any kind, and you can run it completely offline, assuming you have your roms already downloaded.
 
-## Deployment
-Gizmo can be deployed anywhere that you can deploy static sites. This includes: Github Pages, Glitch, and possibly NeoCities. you can also deploy it locally using a github codespace. Gizmo is lightweight, so it doesn't take up a lot of space on your disk. the size can be checked at the top of this README.
+## deployment
+Gizmo can be deployed anywhere that you can deploy static sites. This includes: Github Pages, Glitch, Netifly, Vercel, and more. Gizmo is lightweight, so it doesn't take up a lot of space on your disk, allowing you to run it anywhere.
 
-## Goals
+## features
+### clean
+Gizmo contains no fancy UI elements, and javascript is only used for webretro. This means that it loads quickly on any platform.
+### customizable
+Gizmo's colors are contained in two css documents: one for the main UI, and one for webretro. This allows you to customize gizmo to look however you want.
+
+
+## goals
 - [ ] Improve on the README
 - [ ] Setup npm deployment
 - [ ] Finish tweaks

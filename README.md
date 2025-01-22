@@ -10,7 +10,7 @@
   
   <img alt="GitHub Release" src="https://img.shields.io/github/v/release/capr1tus/gizmo?include_prereleases&style=for-the-badge&labelColor=%23393552&color=%23ea9a97">
 	<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/capr1tus/gizmo?style=for-the-badge&labelColor=%23393552&color=%239ccfd8">
- <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/capr1tus/gizmo?style=for-the-badge&labelColor=%23393552&color=%23c4a7e7">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/capr1tus/gizmo?style=for-the-badge&labelColor=%23393552&color=%23c4a7e7">
 
 
 			

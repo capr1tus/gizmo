@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap'); /* load in our font */
-
 body {
 	overflow: hidden;
-	font-family: 'Cousine', monospace; /* set the font sitewide*/
+	font-family: sans-serif;
 	color: #232136;
 	
 	--ffd-min: 200px;
@@ -61,10 +59,6 @@ body[data-theme~="navy"] {
 a {
 	color: #e0def4;
 
-}
-
-span :hover {
-	background-color: #393552;
 }
 
 #mainarea {
@@ -375,7 +369,7 @@ input[disabled] {
 	height: var(--ffd-min);
 	width: 400px;
 	position: absolute;
-	background-color: #232136;
+	background-color: #393552;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -431,15 +425,10 @@ input[type="file"] {
 }
 
 .uploadbutton {
-	/*margin: 8px 10px;
+	margin: 8px 10px;
 	display: inline-block;
 	user-select: none;
-	cursor: pointer;*/
-	color: #e0def4;
-    		text-decoration: none; /* not fancy */
-    		padding: 10px 15px;
-    		display: inline-block;
-    		transition: background-color 0.3s;
+	cursor: pointer;
 }
 
 .uploadimage {
@@ -448,18 +437,16 @@ input[type="file"] {
 }
 
 #upload {
-	font-family: 'Cousine', monospace; /* set the font sitewide*/
-	color: #e0def4;
-	border: 1px solid #232136;
+	border: 1px solid #555;
 	border-radius: 2px;
-	/*padding: 4px;*/
-	font-size: 18px;
-	background-color: #2a273f;
+	padding: 4px;
+	font-size: 13px;
+	background-color: white;
 	transition: background-color 0.1s ease;
 }
 
 #upload:hover {
-	background-color: #393552;
+	background-color: #eeeeee;
 }
 
 #ffdcontent {
@@ -541,10 +528,6 @@ input[type="file"] {
 
 .greyer {
 	color: #9ccfd8 !important;
-}
-
-.greyer :hover {
-	background-color: #393552;
 }
 
 /* --- */
@@ -736,10 +719,6 @@ body.coreselect #updatenotice {
 	height: 30px;
 	line-height: 30px;
 	padding: 10px;
-}
-
-h2 {
-	color: #e0def4;
 }
 
 .modaltop h2 {

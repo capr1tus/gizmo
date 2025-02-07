@@ -23,7 +23,7 @@
 Gizmo is a lightweight, retro emulation site, able to be hosted on any static hosting platform. Gizmo is easy to set up and start playing, with a sleek UI featuring [Rose Pine Colors](https://rosepinetheme.com/palette/). Gizmo does not contain any bloatware of any kind, and you can run it completely offline, assuming you have your roms already downloaded.
 
 ## deployment
-Gizmo can be deployed anywhere that you can deploy static sites. This includes: Github Pages, Glitch, Netifly, Vercel, and more. Gizmo is lightweight, allowing almost any platform to run it without fear of running out of space. This does not mean that Gizmo will run as a downloaded file. Standalone Builds are being worked on, but may not be completed
+Gizmo can be deployed anywhere that you can deploy static sites. This includes: Github Pages, Glitch, Netifly, Vercel, and more. Gizmo is lightweight, so it will be deployable on almost any platform. This does not mean that Gizmo will run as a downloaded file. Standalone builds are being worked on, but may not be completed due to how complicated Webretro is.
 
 ## features
 ### clean

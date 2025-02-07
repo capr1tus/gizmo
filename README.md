@@ -25,10 +25,12 @@ Gizmo is a lightweight, retro emulation site, able to be hosted on any static ho
 ## deployment
 Gizmo can be deployed anywhere that you can deploy static sites. This includes: Github Pages, Glitch, Netifly, Vercel, and more. Gizmo is lightweight, so it will be deployable on almost any platform. This does not mean that Gizmo will run as a downloaded file. Standalone builds are being worked on, but may not be completed due to how complicated Webretro is.
 ### Github Codespaces
-> npm install -g http-server
-
-> http-server
-
+```
+npm install -g http-server
+```
+```
+http-server
+```
 ## features
 ### clean
 Gizmo contains no fancy UI elements, and javascript is only used for webretro. This means that it loads quickly on any platform.

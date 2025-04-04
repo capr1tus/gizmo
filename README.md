@@ -49,8 +49,12 @@ Gizmo's colors are contained in two css documents: one for the main UI, and one 
 
 ## credits
 starg3n / appak - lead development
+
 SixVertical - devlopment
+
 usrloca1 - devlopment
+
 RealRhythm - devlopment
+
 Milobesilly - testing
 </div>

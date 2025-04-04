@@ -27,6 +27,16 @@
 			font-family: 'Cousine', monospace;
 			font-size: 42px;
 		}
+		h2 { /* headers */
+			color: #e0def4;
+			font-family: 'Cousine', monospace;
+			font-size: 34px;
+		}
+		h3 { /* headers */
+			color: #e0def4;
+			font-family: 'Cousine', monospace;
+			font-size: 26px;
+		}
 		.comment { /* text id that makes the text tiny and grey*/
 			color: #908caa;
 			font-family: 'Cousine', monospace;

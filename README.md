@@ -38,7 +38,7 @@ Gizmo pushes away the ugly-but-useful UI that so many emulation platforms have, 
 
 ## goals
 - [X] Improve the README
-- [ ] Setup codespace deployment
+- [X] Setup codespace deployment
 - [ ] Finish tweaks
 - [X] Finish GBA
 - [ ] Pico-8
